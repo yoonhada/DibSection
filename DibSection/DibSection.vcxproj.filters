@@ -1,0 +1,287 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav</Extensions>
+    </Filter>
+    <Filter Include="Singleton">
+      <UniqueIdentifier>{a827d7c0-ed17-4263-853f-49086cb7468e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Draw">
+      <UniqueIdentifier>{5bfab4fd-a192-46be-abd4-f726340fa801}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Draw\Line">
+      <UniqueIdentifier>{a9ebd3ab-2cb6-4510-9c8c-9a2d7ea9eb1e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Draw\Circle">
+      <UniqueIdentifier>{4cb8f70d-6ff7-4dd3-a9fd-79f5bf6a00c9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Draw\SPLine">
+      <UniqueIdentifier>{4251a928-b027-4671-8ecd-9bd23ac87111}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Draw\Clipping">
+      <UniqueIdentifier>{3e44a360-4d1e-4928-acd3-7d879268e008}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Draw\Triangle">
+      <UniqueIdentifier>{23007551-d681-42a9-a22c-f31f86b7bc72}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Data">
+      <UniqueIdentifier>{3b79f174-2351-4810-9967-ee6b47b74f4b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Debug">
+      <UniqueIdentifier>{fc4cf915-220a-433c-83b2-83a2e1752208}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="DibSection.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Memory.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Node.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="WndEx.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Frequency.cpp">
+      <Filter>Singleton</Filter>
+    </ClCompile>
+    <ClCompile Include="Singleton.cpp">
+      <Filter>Singleton</Filter>
+    </ClCompile>
+    <ClCompile Include="Draw.cpp">
+      <Filter>Draw</Filter>
+    </ClCompile>
+    <ClCompile Include="DrawBitmap.cpp">
+      <Filter>Draw</Filter>
+    </ClCompile>
+    <ClCompile Include="DrawModify.cpp">
+      <Filter>Draw</Filter>
+    </ClCompile>
+    <ClCompile Include="DrawPixel.cpp">
+      <Filter>Draw</Filter>
+    </ClCompile>
+    <ClCompile Include="LineDDA.cpp">
+      <Filter>Draw\Line</Filter>
+    </ClCompile>
+    <ClCompile Include="LineDSA.cpp">
+      <Filter>Draw\Line</Filter>
+    </ClCompile>
+    <ClCompile Include="LineEFA.cpp">
+      <Filter>Draw\Line</Filter>
+    </ClCompile>
+    <ClCompile Include="LineMLA.cpp">
+      <Filter>Draw\Line</Filter>
+    </ClCompile>
+    <ClCompile Include="Circle.cpp">
+      <Filter>Draw\Circle</Filter>
+    </ClCompile>
+    <ClCompile Include="CircleMidP.cpp">
+      <Filter>Draw\Circle</Filter>
+    </ClCompile>
+    <ClCompile Include="CircleSecOrder.cpp">
+      <Filter>Draw\Circle</Filter>
+    </ClCompile>
+    <ClCompile Include="SpBezier3.cpp">
+      <Filter>Draw\SPLine</Filter>
+    </ClCompile>
+    <ClCompile Include="SpBezier4.cpp">
+      <Filter>Draw\SPLine</Filter>
+    </ClCompile>
+    <ClCompile Include="SpCardinal.cpp">
+      <Filter>Draw\SPLine</Filter>
+    </ClCompile>
+    <ClCompile Include="SpHermit.cpp">
+      <Filter>Draw\SPLine</Filter>
+    </ClCompile>
+    <ClCompile Include="ClipCohen.cpp">
+      <Filter>Draw\Clipping</Filter>
+    </ClCompile>
+    <ClCompile Include="ClipEndPoint.cpp">
+      <Filter>Draw\Clipping</Filter>
+    </ClCompile>
+    <ClCompile Include="ClipParametric.cpp">
+      <Filter>Draw\Clipping</Filter>
+    </ClCompile>
+    <ClCompile Include="Triangle.cpp">
+      <Filter>Draw\Triangle</Filter>
+    </ClCompile>
+    <ClCompile Include="TriFlat.cpp">
+      <Filter>Draw\Triangle</Filter>
+    </ClCompile>
+    <ClCompile Include="TriGouraud.cpp">
+      <Filter>Draw\Triangle</Filter>
+    </ClCompile>
+    <ClCompile Include="TriTexture.cpp">
+      <Filter>Draw\Triangle</Filter>
+    </ClCompile>
+    <ClCompile Include="Matrix3.cpp">
+      <Filter>Data</Filter>
+    </ClCompile>
+    <ClCompile Include="Matrix4.cpp">
+      <Filter>Data</Filter>
+    </ClCompile>
+    <ClCompile Include="Point2.cpp">
+      <Filter>Data</Filter>
+    </ClCompile>
+    <ClCompile Include="Vector2.cpp">
+      <Filter>Data</Filter>
+    </ClCompile>
+    <ClCompile Include="Vector3.cpp">
+      <Filter>Data</Filter>
+    </ClCompile>
+    <ClCompile Include="Vector4.cpp">
+      <Filter>Data</Filter>
+    </ClCompile>
+    <ClCompile Include="DebugConsole.cpp">
+      <Filter>Debug</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="2DDrawInc.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Define.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="DibSection.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Memory.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Node.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="WndEx.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Frequency.h">
+      <Filter>Singleton</Filter>
+    </ClInclude>
+    <ClInclude Include="Singleton.h">
+      <Filter>Singleton</Filter>
+    </ClInclude>
+    <ClInclude Include="Draw.h">
+      <Filter>Draw</Filter>
+    </ClInclude>
+    <ClInclude Include="DrawBitmap.h">
+      <Filter>Draw</Filter>
+    </ClInclude>
+    <ClInclude Include="DrawModify.h">
+      <Filter>Draw</Filter>
+    </ClInclude>
+    <ClInclude Include="DrawPixel.h">
+      <Filter>Draw</Filter>
+    </ClInclude>
+    <ClInclude Include="LineDDA.h">
+      <Filter>Draw\Line</Filter>
+    </ClInclude>
+    <ClInclude Include="LineDSA.h">
+      <Filter>Draw\Line</Filter>
+    </ClInclude>
+    <ClInclude Include="LineEFA.h">
+      <Filter>Draw\Line</Filter>
+    </ClInclude>
+    <ClInclude Include="LineMLA.h">
+      <Filter>Draw\Line</Filter>
+    </ClInclude>
+    <ClInclude Include="Circle.h">
+      <Filter>Draw\Circle</Filter>
+    </ClInclude>
+    <ClInclude Include="CircleMidP.h">
+      <Filter>Draw\Circle</Filter>
+    </ClInclude>
+    <ClInclude Include="CircleSecOrder.h">
+      <Filter>Draw\Circle</Filter>
+    </ClInclude>
+    <ClInclude Include="SpBezier3.h">
+      <Filter>Draw\SPLine</Filter>
+    </ClInclude>
+    <ClInclude Include="SpBezier4.h">
+      <Filter>Draw\SPLine</Filter>
+    </ClInclude>
+    <ClInclude Include="SpCardinal.h">
+      <Filter>Draw\SPLine</Filter>
+    </ClInclude>
+    <ClInclude Include="SpHermit.h">
+      <Filter>Draw\SPLine</Filter>
+    </ClInclude>
+    <ClInclude Include="ClipCohen.h">
+      <Filter>Draw\Clipping</Filter>
+    </ClInclude>
+    <ClInclude Include="ClipEndPoint.h">
+      <Filter>Draw\Clipping</Filter>
+    </ClInclude>
+    <ClInclude Include="ClipParametric.h">
+      <Filter>Draw\Clipping</Filter>
+    </ClInclude>
+    <ClInclude Include="Triangle.h">
+      <Filter>Draw\Triangle</Filter>
+    </ClInclude>
+    <ClInclude Include="TriFlat.h">
+      <Filter>Draw\Triangle</Filter>
+    </ClInclude>
+    <ClInclude Include="TriGouraud.h">
+      <Filter>Draw\Triangle</Filter>
+    </ClInclude>
+    <ClInclude Include="TriTexture.h">
+      <Filter>Draw\Triangle</Filter>
+    </ClInclude>
+    <ClInclude Include="Matrix3.h">
+      <Filter>Data</Filter>
+    </ClInclude>
+    <ClInclude Include="Matrix4.h">
+      <Filter>Data</Filter>
+    </ClInclude>
+    <ClInclude Include="Point2.h">
+      <Filter>Data</Filter>
+    </ClInclude>
+    <ClInclude Include="Vector2.h">
+      <Filter>Data</Filter>
+    </ClInclude>
+    <ClInclude Include="Vector3.h">
+      <Filter>Data</Filter>
+    </ClInclude>
+    <ClInclude Include="Vector4.h">
+      <Filter>Data</Filter>
+    </ClInclude>
+    <ClInclude Include="Vertex.h">
+      <Filter>Data</Filter>
+    </ClInclude>
+    <ClInclude Include="DebugConsole.h">
+      <Filter>Debug</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="DibSection.rc">
+      <Filter>리소스 파일</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="small.ico">
+      <Filter>리소스 파일</Filter>
+    </None>
+    <None Include="Manifest.xml" />
+  </ItemGroup>
+</Project>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="DibSection10">
+</Property><Property Name="솔루션 파일" Value="D:\Study\SoftRendering\DibSection\DibSection10.sln">
+</Property><Property Name="Date" Value="2012년 8월 14일 화요일">
+</Property><Property Name="Time" Value="오전 11:10">
+</Property></Properties><Event ErrorLevel="0" Project="DibSection" Source="DibSection\DibSection.vcproj" Description="Converting project file 'D:\Study\SoftRendering\DibSection\DibSection\DibSection.vcproj'.">
+</Event><Event ErrorLevel="1" Project="DibSection" Source="DibSection\DibSection.vcproj" Description="VCWebServiceProxyGeneratorTool is no longer supported. The tool has been removed from your project settings.">
+</Event><Event ErrorLevel="0" Project="DibSection" Source="DibSection\DibSection.vcproj" Description="Done converting to new project file 'D:\Study\SoftRendering\DibSection\DibSection\DibSection.vcxproj'.">
+</Event><Event ErrorLevel="3" Project="DibSection" Source="DibSection\DibSection.vcproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="" Source="DibSection10.sln" Description="솔루션을 변환했습니다.">
+</Event><Event ErrorLevel="3" Project="" Source="DibSection10.sln" Description="Converted">
+</Event></UpgradeLog>

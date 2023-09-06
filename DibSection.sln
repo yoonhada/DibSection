@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "DibSection", "DibSection\DibSection.vcproj", "{4612AC39-605C-4DB3-BE13-398D14D553AB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4612AC39-605C-4DB3-BE13-398D14D553AB}.Debug|Win32.ActiveCfg = Debug|Win32
+		{4612AC39-605C-4DB3-BE13-398D14D553AB}.Debug|Win32.Build.0 = Debug|Win32
+		{4612AC39-605C-4DB3-BE13-398D14D553AB}.Release|Win32.ActiveCfg = Release|Win32
+		{4612AC39-605C-4DB3-BE13-398D14D553AB}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
